@@ -1,0 +1,19 @@
+{
+  "name": "HelloWorld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify --presets [ react ] ] main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
